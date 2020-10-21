@@ -332,9 +332,10 @@ main#home h1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: bioimage;
-  background-color: rgba(7, 6, 6, 0.87);
+  background-color: rgba(51, 51, 51, 0.685);
+  border: solid #9f8457 3px;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 0.5rem;
   -webkit-box-shadow: 0 4px 25px #9f8457;
           box-shadow: 0 4px 25px #9f8457;
 }
@@ -345,6 +346,13 @@ main#home h1 {
   -ms-grid-column-span: 2;
   grid-area: bio;
   font-size: 1.5rem;
+  background: rgba(51, 51, 51, 0.616);
+  max-width: 70%;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-top: 10px;
+  -webkit-box-shadow: 0 4px 25px #9f8457;
+          box-shadow: 0 4px 25px #9f8457;
 }
 
 .about-info .job-1 {
@@ -366,9 +374,23 @@ main#home h1 {
 }
 
 .about-info .job {
-  background: rgba(21, 18, 18, 0.87);
+  background: rgba(34, 34, 34, 0.61);
   padding: 0.5rem;
   border-bottom: #9f8457 5px solid;
+  -webkit-box-shadow: 0 4px 25px #9f8457;
+          box-shadow: 0 4px 25px #9f8457;
+}
+
+.about-info p {
+  font-size: 1.5rem;
+}
+
+.about-info h3 {
+  font-size: 2rem;
+}
+
+.about-info h6 {
+  font-size: 1.5rem;
 }
 
 .projects {
@@ -389,6 +411,14 @@ main#home h1 {
   border-color: #9f8457;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+
+.sm-heading-about {
+  padding-bottom: 30px;
+}
+
+.bio2 i {
+  margin-right: 50px;
 }
 
 .contact__input {
@@ -433,7 +463,7 @@ main#home h1 {
 }
 
 .btn-light {
-  background: rgba(143, 125, 125, 0.87);
+  background: #9f8557a9;
   color: #333;
 }
 
